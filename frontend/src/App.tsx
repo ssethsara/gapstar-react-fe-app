@@ -28,10 +28,10 @@ function App() {
                     colorScheme: 'light',
                 }}
             >
-             <Routes>
-                <Route path="/" element={<AddTicketsPage />}/>
-                <Route path="/AddTickets" element={<TicketsListPage/>} />
-            </Routes>
+                <Routes>
+                    <Route path="/" element={<AddTicketsPage />} />
+                    <Route path="/list" element={<TicketsListPage />} />
+                </Routes>
             </MantineProvider>
         </Provider>
     );

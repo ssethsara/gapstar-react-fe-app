@@ -29,7 +29,7 @@ export const Navbar = ({ className }: ChildlessBaseComponent) => {
             </Grid.Col>
             <Grid.Col span={6} className={classes.linksContainer}>
                 <NavLink href="/">Home</NavLink>
-                <NavLink href="/AddTickets">List</NavLink>
+                <NavLink href="/list">List</NavLink>
             </Grid.Col>
         </Grid>
     );

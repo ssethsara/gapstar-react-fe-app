@@ -29,7 +29,6 @@ export const TicketsListPage = () => {
         const getData = async () => {
             try {
                 const ticketsData = await ticketServices.getTicketsAsync();
-                console.log(ticketsData?.data?.data);
                 dispatch(addTickets(ticketsData?.data?.data));
             } catch (e) {
                 console.error(e);
